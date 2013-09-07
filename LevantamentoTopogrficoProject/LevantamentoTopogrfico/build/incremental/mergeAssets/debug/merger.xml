@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/debug/assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".main"
+    android:background="@color/bg_gray">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nextToStep2"
+            android:id="@+id/IniciarCalculo"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_above="@+id/IniciarCalculo">-->
+
+       <!---->
+    <!--</LinearLayout>-->
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutPontoCentral"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_above="@+id/nextToStep2">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ponto Central "
+                android:id="@+id/pontoCentral"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:paddingTop="5dip"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                />
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/xPC"
+
+                android:gravity="center|center_horizontal"
+                android:layout_below="@+id/pontoCentral"
+                android:layout_alignBottom="@+id/Ok_PC"
+
+                android:paddingTop="10dip"
+                android:inputType="number|numberDecimal"
+                android:height="48dp"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentLeft="true"
+                android:hint="X"
+                android:maxWidth="150dp"
+                android:minWidth="60dp"
+                android:singleLine="true"
+                android:visibility="visible"
+                android:layout_centerInParent="true"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/yPC"
+
+                android:layout_toRightOf="@+id/xPC"
+                android:layout_below="@+id/pontoCentral"
+
+                android:layout_alignWithParentIfMissing="false"
+                android:autoText="false"
+                android:focusable="true"
+
+                android:paddingTop="10dip"
+                android:inputType="number|numberDecimal"
+                android:gravity="center|center_horizontal"
+                android:height="48dp"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignBottom="@+id/Ok_PC"
+                android:hint="Y"
+                android:maxWidth="150dp"
+                android:minWidth="60dp"
+                android:singleLine="true"
+                android:visibility="visible"
+                android:layout_centerInParent="true"/>
+
+
+
+        <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:id="@+id/Ok_PC"
+                android:paddingTop="10dip"
+                android:layout_below="@+id/pontoCentral"
+                android:layout_toRightOf="@+id/yPC"
+                android:height="48px"
+                android:width="45dp"
+                android:src="@drawable/ic_new"
+                android:layout_marginLeft="12.5dp"
+                android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layoutPontoPoligono"
+            android:layout_alignParentLeft="false"
+            android:layout_marginTop="11dp"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/layoutPontoCentral"
+            android:layout_above="@+id/IniciarCalculo">
+
+
+        <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pontos do Poligono "
+                android:id="@+id/pontoPoligono"
+                android:paddingTop="5dip"
+                android:layout_centerHorizontal="true"
+                />
+
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/xPP"
+
+                android:text="X"
+
+                android:layout_alignParentLeft="true"
+
+                android:layout_below="@+id/pontoPoligono"
+                android:layout_alignBottom="@+id/Ok_PP"
+
+
+                android:paddingTop="10dip"
+                android:inputType="number|numberDecimal"
+                android:gravity="center|center_horizontal"
+                android:height="48dp"
+                android:minWidth="100dp"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/yPP"
+                android:layout_alignWithParentIfMissing="false"
+                android:autoText="false"
+                android:focusable="true"
+                android:text="Y"
+                android:gravity="center|center_horizontal"
+                android:layout_toRightOf="@+id/xPP"
+
+                android:layout_alignBottom="@+id/Ok_PP"
+                android:layout_below="@+id/pontoPoligono"
+
+                android:paddingTop="10dip"
+                android:inputType="number|numberDecimal"
+                android:gravity="center|center_horizontal"
+                android:height="48dp"
+                android:minWidth="100dp"
+                />
+
+
+
+        <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:id="@+id/Ok_PP"
+                android:paddingTop="10dip"
+                android:layout_below="@+id/pontoPoligono"
+                android:layout_toRightOf="@+id/yPP"
+                android:height="48px"
+                android:width="100dp"
+                android:src="@drawable/ic_new"
+                android:layout_marginLeft="12.5dp"/>
+
+        <GridView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/PontosPoligono"
+                android:layout_below="@+id/xPP"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:numColumns="2"
+                android:choiceMode="none"
+                android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

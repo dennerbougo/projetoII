@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/romulomessias/Dropbox/FT-UNICAMP/6o%20Semestre/ST047%20-%20Introd.a%20Interfaces%20Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/values-v11/styles.xml -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Levantamento Topográfico</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nextToStep2">Próximo Passo</string>
+    <string name="main_view">Definindo Poligono</string>
+
+</resources>

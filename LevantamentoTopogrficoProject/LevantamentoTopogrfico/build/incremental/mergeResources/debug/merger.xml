@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="main_layout"
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/layout/main_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="main_view" >Definindo Poligono
+                </string>
+                <string name="app_name" >Levantamento Topográfico
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="nextToStep2" >Próximo Passo
+                </string>
+            </file>
+            <file
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/values/styles.xml"
+                qualifiers="" >
+                <color name="bg_gray" >#fff6f3f6
+                </color>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <color name="emphasis" >#31b6e7
+                </color>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/romulomessias/Dropbox/FT-UNICAMP/6o Semestre/ST047 - Introd.a Interfaces Humano-Computador/Projeto/LevantamentoTopogrficoProject/LevantamentoTopogrfico/src/debug/res" />
+    </dataSet>
+
+</merger>
